@@ -61,7 +61,7 @@ describe("calculateGradesAndAverage", () => {
       expect(calculateGradesAndAverage(student)).toEqual(expected);
     });
 
-    // Add more test cases as needed
+    
   });
 
   describe("Religious Education Grading", () => {
