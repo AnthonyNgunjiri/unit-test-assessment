@@ -5,7 +5,7 @@ describe("calculateGradesAndAverage", () => {
   describe("Languages Grading", () => {
    test("should return correct grades for languages", () => {
       const student = {
-        name: "Test Student",
+        name: "edward gilbert",
         math: 0,
         eng: 65, 
         kis: 55, 
@@ -16,7 +16,7 @@ describe("calculateGradesAndAverage", () => {
       };
 
       const expected = {
-        name: "Test Student",
+        name: "edward gilbert",
         math: "sup",
         phy: "sup",
         che: "sup",
@@ -36,7 +36,7 @@ describe("calculateGradesAndAverage", () => {
   describe("Sciences Grading", () => {
    test("should return correct grades for sciences", () => {
       const student = {
-        name: "Test Student",
+        name: "jane stella",
         math: 80, 
         eng: 0,
         kis: 0,
@@ -47,7 +47,7 @@ describe("calculateGradesAndAverage", () => {
       };
 
       const expected = {
-        name: "Test Student",
+        name: "jane stella",
         math: "A",
         phy: "B",
         che: "C",
@@ -67,7 +67,7 @@ describe("calculateGradesAndAverage", () => {
   describe("Religious Education Grading", () => {
    test("should return correct grades for religious education", () => {
       const student = {
-        name: "Test Student",
+        name: "isaac newton",
         math: 0,
         eng: 0,
         kis: 0,
@@ -78,7 +78,7 @@ describe("calculateGradesAndAverage", () => {
       };
 
       const expected = {
-        name: "Test Student",
+        name: "isaac newton",
         math: "sup",
         phy: "sup",
         che: "sup",
@@ -125,7 +125,7 @@ describe("calculateGradesAndAverage", () => {
 
    test("should calculate grades correctly for edge cases", () => {
       const student = {
-        name: "Jane Doe",
+        name: "kimani eric",
         math: 100,
         eng: 75,
         kis: 55,
@@ -136,7 +136,7 @@ describe("calculateGradesAndAverage", () => {
       };
 
       const expected = {
-        name: "Jane Doe",
+        name: "Kimani eric",
         math: "A",
         phy: "pass",
         che: "sup",
@@ -179,7 +179,7 @@ describe("calculateGradesAndAverage", () => {
 
    test("should calculate grades and average correctly for maximum scores", () => {
       const student = {
-        name: "Emily Brown",
+        name: "Emily wairimu",
         math: 100,
         eng: 100,
         kis: 100,
@@ -190,7 +190,7 @@ describe("calculateGradesAndAverage", () => {
       };
 
       const expected = {
-        name: "Emily Brown",
+        name: "Emily wairimu",
         math: "A",
         phy: "A",
         che: "A",
