@@ -1,5 +1,5 @@
-// calculating the average of sciences
-// 
+
+
 function calculateGradesAndAverage(student) {
     const { name, math, eng, kis, phy, che, re, comp } = student;
     const grades = {};
@@ -62,7 +62,7 @@ function calculateGradesAndAverage(student) {
     return { name ,...grades, avgPts };
 }
 
-// Example usage:
+
 const student =
 {
      name: "George Washington",
